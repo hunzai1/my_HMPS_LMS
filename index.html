@@ -3,42 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LMS - Hasegawa Memorial Public School</title>
-    <link rel="stylesheet" href="styles.css">
+    <title>LMS Homepage</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
-        <img src="school-logo.png" alt="School Logo" id="school-logo">
-        <h1>Hasegawa Memorial Public Higher Secondary School LMS</h1>
+        <img src="images/logo.png" alt="School Logo" class="logo">
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="registration.html">Register</a></li>
+            </ul>
+        </nav>
     </header>
 
-    <nav>
-        <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Courses</a></li>
-            <li><a href="#">Faculty</a></li>
-            <li><a href="#">Contact Us</a></li>
-        </ul>
-    </nav>
-
-    <section id="carousel">
-        <h2>Meet Dr. Hasegawa</h2>
-        <div class="carousel">
-            <img src="hasegawa1.jpg" alt="Dr. Hasegawa Picture 1">
-            <img src="hasegawa2.jpg" alt="Dr. Hasegawa Picture 2">
-            <img src="hasegawa3.jpg" alt="Dr. Hasegawa Picture 3">
+    <section class="hero">
+        <img src="images/hero-image.jpg" alt="Hero Image" class="hero-img">
+        <div class="hero-text">
+            <h1>Welcome to Hasegawa Memorial Public School LMS</h1>
+            <p>Empowering students with online learning tools</p>
+            <a href="registration.html" class="cta-button">Get Started</a>
         </div>
     </section>
 
-    <section id="main-content">
-        <h2>Welcome to the Learning Management System</h2>
-        <p>Here you can access all your course materials, check your grades, and interact with your instructors.</p>
-        <button class="styled-btn">Login</button>
-        <button class="styled-btn">Register</button>
+    <section class="features">
+        <div class="feature">
+            <img src="images/student-portal.jpg" alt="Student Portal">
+            <h2>Student Portal</h2>
+            <p>Access courses, assignments, and grades easily.</p>
+        </div>
+        <div class="feature">
+            <img src="images/faculty-dashboard.jpg" alt="Faculty Dashboard">
+            <h2>Faculty Dashboard</h2>
+            <p>Manage class schedules, assignments, and student performance.</p>
+        </div>
+        <div class="feature">
+            <img src="images/online-learning.jpg" alt="Online Learning">
+            <h2>Online Learning</h2>
+            <p>Engage with interactive lessons and virtual classrooms.</p>
+        </div>
+        <div class="feature">
+            <img src="images/data-analytics.jpg" alt="Data Analytics">
+            <h2>Data Analytics</h2>
+            <p>Track progress with detailed analytics and reporting.</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2024 Hasegawa Memorial Public School. All Rights Reserved.</p>
+        <p>© 2024 Hasegawa Memorial Public School | All Rights Reserved</p>
     </footer>
 </body>
 </html>
